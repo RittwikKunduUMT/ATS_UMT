@@ -1,28 +1,5 @@
-<P>Hi!! Angular ATS</P>
+<!-- <P>Hi!! Angular ATS</P>
 <button (click)="toggleModal()">Open Modal</button>
-<!-- <ng-template #modalContent let-modal>
-  <div class="modal-header">
-    <h4 class="modal-title" id="modal-basic-title">Modal Title</h4>
-    <button
-      type="button"
-      class="close"
-      aria-label="Close"
-      (click)="modal.dismiss('Cross click')"
-    >
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body">Modal Content Here</div>
-  <div class="modal-footer">
-    <button
-      type="button"
-      class="btn btn-outline-dark"
-      (click)="modal.close('Close click')"
-    >
-      Close
-    </button>
-  </div>
-</ng-template> -->
 @if (isModalOpen) {
   <div class="modal">
     <div class="modal-content">
@@ -30,4 +7,6 @@
       <p>Modal Content Here</p>
     </div>
   </div>
-}
+} -->
+<!-- <app-table></app-table> -->
+<router-outlet></router-outlet>
